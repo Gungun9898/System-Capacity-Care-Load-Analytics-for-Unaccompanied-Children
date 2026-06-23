@@ -1,0 +1,17 @@
+Title: UAC Care System Operations Dashboard
+
+Introduction:
+The modern public service and healthcare ecosystem generates large volumes of operational data across multiple touchpoints, such as case intake, transfers, 
+and discharges. Decision-mak-ers often struggle to convert this raw data into timely, actionable insights, especially when teams 
+rely on static spreadsheets or delayed reports. Interactive dashboards and analytical tools have therefore become essential for monitoring system 
+load, understanding backlogs, and plan-ning resources more effectively.
+This project presents the development of an operations command center dashboard, built using Python and Streamlit, to visualize key indicators 
+related to the UAC (Unaccompanied Alien Children) care system. The dashboard consolidates daily and monthly metrics from a SQLite database and 
+presents them via intuitive views, including Executive Summary, Opera-tions Monitor, Backlog & Risk, and Scenario Lab. By providing a single, integrated interface, 
+the application helps users track total system load, intake pressure, discharges, and scenario-based projections.
+From a management perspective, the dashboard demonstrates how data-driven tools can im-prove situational awareness, support proactive decision-making, 
+and enhance accountability. It bridges the gap between operational data and strategic planning by transforming complex ta-bles into clear visual stories 
+that can be understood by both technical and non-technical stake-holders. The project shows how lightweight technologies like Streamlit and SQLite can be combined 
+to deliver a practical decision-support solution.
+
+(complete detail present in UAC_Health pdf)
