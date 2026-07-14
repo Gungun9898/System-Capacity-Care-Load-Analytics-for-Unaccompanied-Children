@@ -7,7 +7,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-DB_PATH = Path("C:/Users/gunja/Documents/Sqlite/mydb.db")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
+DB_PATH = BASE_DIR / "mydb.db"
 
 st.set_page_config(
     page_title="UAC Care System Command Center",
